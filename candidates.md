@@ -1,0 +1,21 @@
+# Team Name Candidates
+
+- Phalanx
+- Titan
+- Conjurer
+    - Merlin?
+    - Gandalf?
+    - Aesir?
+    - Shaman
+    - Warlock
+    - Sorcerer
+- Arsenal
+- Salamander
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
