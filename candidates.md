@@ -1,0 +1,31 @@
+# Team Name Candidates
+
+- Phalanx
+- Titan
+- Conjurer
+    - Shaman
+    - Warlock
+    - Sorcerer
+- Arsenal
+- Salamander
+- Molecule
+- Galileo
+- Proteus
+- Bonanza
+- Chroma
+- Inferno
+- Chrysalis
+- Ironclad
+- Matterhorn
+- Polaris
+- Beowolf
+- Gilgamesh
+- Pharoah
+- Pretorian
+- Colossus
+- Cyclopes
+- Dynamo
+- Shazam
+- Quicksilver
+- Dexterity
+- Maelstrom
