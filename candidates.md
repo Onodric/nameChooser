@@ -29,3 +29,5 @@
 - Quicksilver
 - Dexterity
 - Maelstrom
+- Excalibur (project name)
+    - Broadsword
