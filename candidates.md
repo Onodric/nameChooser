@@ -3,19 +3,29 @@
 - Phalanx
 - Titan
 - Conjurer
-    - Merlin?
-    - Gandalf?
-    - Aesir?
     - Shaman
     - Warlock
     - Sorcerer
 - Arsenal
 - Salamander
-- 
-- 
-- 
-- 
-- 
-- 
-- 
-- 
+- Molecule
+- Galileo
+- Proteus
+- Bonanza
+- Chroma
+- Inferno
+- Chrysalis
+- Ironclad
+- Matterhorn
+- Polaris
+- Beowolf
+- Gilgamesh
+- Pharoah
+- Pretorian
+- Colossus
+- Cyclopes
+- Dynamo
+- Shazam
+- Quicksilver
+- Dexterity
+- Maelstrom

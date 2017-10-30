@@ -1,5 +1,6 @@
 import candidateGetter as cg
 import secrets
+import pprint
 
 
 class CandidateRanker:
@@ -32,7 +33,7 @@ class CandidateRanker:
         """
         self.get_candidates(100, 15)
         for count in range(iterations):
-            print("rank_one count: {}".format(count))
+            # print("rank_one count: {}".format(count))
             for candidate in self.candidates.keys():
                 ranking = secrets.randbelow(len(
                     self.candidates))
@@ -51,7 +52,7 @@ class CandidateRanker:
         for k in sorted(self.final_candidates,
                         key=self.final_candidates.get, reverse=True)[:low_rank]:
             final_rankings[k] = self.final_candidates[k]
-        print("Top_Candidates dict: {}".format(final_rankings))
+        # pprint.pprint("Top_Candidates dict: {}".format(final_rankings))
         self.final_candidates = {}
         return final_rankings
 
@@ -62,25 +63,25 @@ class CandidateRanker:
         :return:
         """
         for i in range(iterations):
-            self.rank_one(50)
-            # print("do-that_a_lot got a list: {}".format(self.final_candidates))
+            self.rank_one(10)
             top_ten = self.top_candidates(10)
-            print("this is the top ten #{}: {}".format(i, top_ten))
+            # print("this is the top ten #{}: {}".format(i, top_ten))
             for top, rank in top_ten.items():
                 if top in self.final_finals:
                     self.final_finals[top] += rank
                 else:
                     self.final_finals[top] = rank
-            if len(self.final_finals) >= 100:
+            if len(self.final_finals) >= 500:
+                print("Culling 450 terms...")
                 temp_tops = self.top_candidates(50)
                 for top, rank in temp_tops.items():
                     self.final_finals[top] += rank
-        print(self.final_finals)
+        # print(self.final_finals)
         self.final_candidates = self.final_finals
-        print("Final top 25: ")
-        self.top_candidates(25)
+        pprint.pprint("Final top 25: {}".format(self.top_candidates(25)))
+        # self.top_candidates(25)
 
 
 if __name__ == "__main__":
     cr = CandidateRanker()
-    cr.do_that_a_lot(10)
+    cr.do_that_a_lot(10000)
